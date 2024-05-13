@@ -1,0 +1,243 @@
+body{
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    padding: 39px 60px 61px;
+  }
+
+  @media (max-width: 991px) {
+    .container {
+      padding: 0 20px;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1177px;
+    flex-direction: column;
+  }
+
+  @media (max-width: 991px) {
+    .content-wrapper {
+      max-width: 100%;
+    }
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .gender-options {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #0e0e0e;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .gender-options {
+      white-space: initial;
+    }
+  }
+
+  .gender-male,
+  .gender-female {
+    font-family: Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+  .gender-female {
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+
+  .header-actions {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .header-actions {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .logo {
+    color: #d4b67e;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 40px Diplomata, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d4b67e;
+    margin-left: -780px;
+    width: 20vw; 
+    height: auto; 
+    display: inline-flex;
+    flex-direction: column; /* Устанавливаем направление flex элементов */
+    max-width: max-content;
+    display: inline-block; /* или display: block; */
+    user-select: none; /* Запрещаем выделение */
+}
+  .cart {
+    color: #0e0e0e;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 24px Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  
+  }
+
+  .delivery-title {
+    color: #0e0e0e;
+    text-align: center;
+    align-self: center;
+    margin-top: 75px;
+    font: 36px Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+  @media (max-width: 991px) {
+    .delivery-title {
+      margin-top: 40px;
+    }
+  }
+
+  .delivery-info {
+    color: #0e0e0e;
+    margin-top: 65px;
+    font: 24px Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+  @media (max-width: 991px) {
+    .delivery-info {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .return-title {
+    color: #0e0e0e;
+    text-align: center;
+    align-self: center;
+    margin-top: 66px;
+    font: 36px Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+  @media (max-width: 991px) {
+    .return-title {
+      margin-top: 40px;
+    }
+  }
+
+  .return-info {
+    color: #0e0e0e;
+    margin-top: 66px;
+    font: 24px Cousine, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+  @media (max-width: 991px) {
+    .return-info {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .footer {
+    align-self: center;
+    display: flex;
+    margin-top: 414px;
+    width: 896px;
+    max-width: 100%;
+    align-items: start;
+    gap: 20px;
+    font-size: 24px;
+    color: #0e0e0e;
+  }
+
+  @media (max-width: 991px) {
+    .footer {
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .about-company,
+  .contacts {
+    font-family: Cousine, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+
+  .delivery-return-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+}
+
+  .delivery-return {
+    font-family: Cousine, sans-serif;
+  }
+
+  .footer {
+    align-self: center;
+    display: flex;
+    margin-top: 118px;
+    width: 896px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 24px;
+    color: #0e0e0e;
+    font-weight: 400;
+    margin-left: 82px;
+  }
+  
+  .footer-link {
+    font-family: Cousine, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #000;
+    opacity: 0.4;
+  }
