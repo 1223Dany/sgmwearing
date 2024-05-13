@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/styleshopcard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diplomata&family=Wix+Madefor+Text:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Diplomata&family=Wix+Madefor+Text:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <header class="header">
+          <div class="gender-options">
+            <div class="gender-male"><a href="man.html">Мужское</a></div>
+            <div class="gender-female"><a href="woman.html">Женское</a></div>
+          </div>
+          <div class="header-actions">
+            <div class="logo"><a href="index.html">SGMwear</a></div>
+            <div class="cart"><a href="shopcard.html">Корзина</a></div>
+          </div>
+        </header>
+        <section class="product-section">
+          <div class="product-images">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/75d2fefdf52a5d83d2b5686e95483544a7e3ac35630089d55d54357670a4acab?apiKey=bcebb5e3888540a4bef8a78690a91eb8&"
+              alt="Product Image 1"
+              class="product-image"
+            />
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bdbebb12b5d6c16159622ce04fdf76471ac3a4496f2aeb076df7c741034c2fe?apiKey=bcebb5e3888540a4bef8a78690a91eb8&"
+              alt="Product Image 2"
+              class="product-image-2"
+            />
+          </div>
+          <div class="product-details">
+            <div class="product-info">
+              <div class="product-description">
+                <div class="product-name">Футболка SGM NOT CRIME</div>
+                <div class="product-size">Размер: L</div>
+                <div class="product-quantity">Количество: 1</div>
+              </div>
+              <div class="product-price-remove">
+                <div class="product-price">4 499 р.</div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e38aa4cfd7fb5793d3fa85d2c6399cb3dcdbf1b74fc0da804dd696ac681c2b3?apiKey=bcebb5e3888540a4bef8a78690a91eb8&"
+                  alt="Remove Icon"
+                  class="remove-icon"
+                />
+              </div>
+            </div>
+            <div class="product-info-2">
+              <div class="product-description-2">
+                <div class="product-name-2">
+                  Худи SGM LOCALSTAR BLACK LIMITED
+                </div>
+                <div class="product-size-2">Размер: XL</div>
+                <div class="product-quantity-2">Количество: 1</div>
+              </div>
+              <div class="product-price-remove-2">
+                <div class="product-price-2">6 499 р.</div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e38aa4cfd7fb5793d3fa85d2c6399cb3dcdbf1b74fc0da804dd696ac681c2b3?apiKey=bcebb5e3888540a4bef8a78690a91eb8&"
+                  alt="Remove Icon"
+                  class="remove-icon-2"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="forma">
+          <form class="generated-form" method="GET" action="" target="_self">
+            <fieldset>
+              <label for="text">Имя</label><br />
+              <input type="text" id="text" name="text" /><br />
+              <label for="password">Почта</label><br />
+              <input type="email" id="email" name="email" /><br />
+              <label for="number">Телефон</label><br />
+              <input type="number" id="number" name="number" /><br />
+              <label for="text">Комментарий к заказу:</label><br />
+              <input type="text" id="text" name="text" /><br />
+              <input
+                type="radio"
+                id="mailrus"
+                name="delivery"
+                value="mailrus"
+              />
+              <label for="mailrus">Доставка "Почтой России"</label><br />
+              <input type="radio" id="sdek" name="delivery" value="sdek" />
+              <label for="sdek">Доставка "СДЭК"</label><br />
+              <label for="text">Улица</label><br />
+              <input type="text" id="text" name="text" /><br />
+              <label for="text">Дом</label><br />
+              <input type="text" id="text" name="text" /><br />
+              <label for="text" class="kv">Квартира</label><br />
+              <input class="kv" type="text" id="text" name="text" /><br />
+              <button class="buttonform">Подтвердить</button>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="order-summary">
+          <div class="total-price">
+            <div class="total-label">Сумма:</div>
+            <div class="total-amount">10 998 р.</div>
+          </div>
+          <!-- <div class="confirm-button">Подтвердить</div> -->
+        </div>
+        <footer class="footer">
+          <div class="footer-link"><a href="about.html">О компании</a></div>
+          <div class="footer-link">
+            <a href="delivery.html">Доставка и возврат</a>
+          </div>
+          <div class="footer-link"><a href="contacts.html">Контакты</a></div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
